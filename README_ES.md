@@ -466,9 +466,7 @@ es la única arma.
 
 ---
 
-## `[NIVEL 2]` PRUEBAS SOLO-BACKEND (V–VII)
-
-> *"Donde `mutex` Se Encuentra con la Realidad"*
+## `[NIVEL 2]` PRUEBAS SOLO-BACKEND (V–VII) — *"Donde `mutex` Se Encuentra con la Realidad"*
 
 Estas pruebas son exclusivamente para equipos construyendo
 servicios backend. Los equipos de frontend las omiten por
@@ -721,9 +719,7 @@ Sesión desconocida → `404`.
 
 ---
 
-## `[NIVEL 3]` PRUEBAS SOLO-FRONTEND (VIII–X)
-
-> *"La UI Es una Mentira (Hazla Convincente)"*
+## `[NIVEL 3]` PRUEBAS SOLO-FRONTEND (VIII–X) — *"La UI Es una Mentira (Hazla Convincente)"*
 
 Estas pruebas son exclusivamente para equipos construyendo
 interfaces frontend. Los equipos de backend las omiten por

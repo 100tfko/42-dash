@@ -1,13 +1,8 @@
-FROM alpine:3.21
-
-COPY backend /usr/local/bin/backend
-COPY data/ /data/
-
-RUN chmod +x /usr/local/bin/backend
-
-WORKDIR /data
+FROM node:20-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN --mount=type=cache,target=/root/.npm npm install
+COPY . .
 EXPOSE 3000
-
 ENV BACKEND_PORT=3000
-
-ENTRYPOINT ["sh", "-c", "backend --port ${BACKEND_PORT} --data /data/provider-alpha.json,/data/provider-beta.json,/data/provider-gamma.json"]
+CMD ["node", "index.js"]

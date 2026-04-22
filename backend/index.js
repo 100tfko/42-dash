@@ -1,6 +1,10 @@
 import Fastify from 'fastify';
+import gamesRoutes from './routes/games.js';
 
 const fastify = Fastify();
+
+// Register games API routes
+fastify.register(gamesRoutes);
 
 fastify.get('/healthz', async (request, reply) => {
 	return reply.code(200).send({ status: 'ok' });

@@ -1,6 +1,6 @@
 # `> SEÑAL INTERCEPTADA` — La Arena del Agregador
 
-```text
+```texttttt
 ╔══════════════════════════════════════════════════════════════════════╗
 ║  ORIGEN DE TRANSMISIÓN: Sector 42, Subred Ω-7                        ║
 ║  CIFRADO: HMAC-SHA256 (obviamente)                                   ║
